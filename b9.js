@@ -9,12 +9,12 @@ function odd_and_even_sum(input) {
     }
     let totalEven = 0;
     let totalOdd = 0;
-    let resultEven = input.filter((num) =>{
+    input.filter((num) =>{
         if (num % 2 === 0) {
             totalEven += num
         }
     });
-    let resultOdd = input.filter((num) =>{
+    input.filter((num) =>{
         if (num % 2 !== 0) {
             totalOdd += num
         }
