@@ -24,4 +24,4 @@ function odd_and_even_sum(input) {
 }
 odd_and_even_sum([ 1,2, 3, 4, 5, 6, 7, 8, 9 ]);
 odd_and_even_sum([]);
-odd_and_even_sum("abc")
+odd_and_even_sum("abc");
